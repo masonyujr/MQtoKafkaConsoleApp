@@ -1,0 +1,9 @@
+﻿{
+  "type": "record",
+  "name": "Message",
+  "fields": [
+    {"name": "JMSCorrelationID", "type": "string"},
+    {"name": "JMSTimestamp", "type": "long"},  // Timestamp as Unix epoch milliseconds
+    {"name": "Payload", "type": "string"}    // XML payload as a string
+  ]
+}
